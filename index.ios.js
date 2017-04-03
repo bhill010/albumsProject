@@ -5,8 +5,9 @@ import Header from './src/components/header';
 import AlbumList from './src/components/AlbumList';
 
 //create Component
+// flex1 property is added to let scrollable views work in the application
 const App = () => (
-  <View>
+  <View style={{ flex: 1}}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
